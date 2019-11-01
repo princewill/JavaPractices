@@ -1,132 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaPractices:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d37e71c-242c-4e52-bc67-9462a7c1de7c" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="552d590c-1344-403a-b3e8-87118418abf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/wilohuab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thriftCompiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/com/cake/bracketvalidator/BracketValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/com/cake/interview/BracketValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractices/com/cake/bracketvalidator/BracketValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JavaPractices/com/cake/bracketvalidator/BracketValidatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cake/bracketvalidator/BracketValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cake/interview/BracketValidator.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cake/bracketvalidator/BracketValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#533#544#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/com/cake/bracketvalidator/BracketValidatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/cake/bracketvalidator/BracketValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cake/bracketvalidator/BracketValidator.java" />
-        <option value="$PROJECT_DIR$/Test/com/cake/bracketvalidator/BracketValidatorTest.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="123" />
-    <option name="width" value="1203" />
-    <option name="height" value="878" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaPractices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bracketvalidator" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1T1JuMQss2OmNM2vXCtfDGtgIcz" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.cake.bracketvalidator" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.cake.bracketvalidator" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Test" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cake.interview" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -141,20 +68,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BracketValidatorTest">
+  <component name="RunManager" selected="Application.Interview">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BracketValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cake.bracketvalidator.BracketValidator" />
+    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cake.interview.Interview" />
       <module name="JavaPractices" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cake.bracketvalidator.*" />
+          <option name="PATTERN" value="com.cake.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,24 +95,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BracketValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaPractices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cake.bracketvalidator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cake.bracketvalidator" />
-      <option name="MAIN_CLASS_NAME" value="com.cake.bracketvalidator.BracketValidatorTest" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="com.cake.interview in JavaPractices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaPractices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cake.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cake.interview" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,25 +137,33 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BracketValidatorTest" />
-        <item itemvalue="Application.BracketValidator" />
+        <item itemvalue="Application.Interview" />
+        <item itemvalue="JUnit.com.cake.interview in JavaPractices" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/Desktop/LoginService" value="1482979722000" />
-        <entry key="$USER_HOME$/Work/LoginService" value="1482979722000" />
-        <entry key="$USER_HOME$/Work/PlayProjects/DependencyInjection" value="1481225190000" />
-        <entry key="$USER_HOME$/Work/PlayProjects/addressbook" value="1496720361000" />
-        <entry key="$USER_HOME$/Work/PlayProjects/dependecyinjection" value="1481216781000" />
-        <entry key="$USER_HOME$/Work/PlayProjects/helloworld" value="1486753223000" />
-        <entry key="$USER_HOME$/Work/Walmart/walmart2/wm_browse" value="4483852311000" />
-        <entry key="$USER_HOME$/Work/Walmart/wm_browse" value="4446996082000" />
-        <entry key="$USER_HOME$/Work/Walmart/wm_coupons/coupon-service" value="1501538497000" />
-        <entry key="$USER_HOME$/Work/Walmart/wm_coupons/coupon_service" value="1501603457000" />
-        <entry key="$USER_HOME$/Work/Walmart/wm_coupons/coupon_service/coupons_play" value="1501527669000" />
+        <entry key="$USER_HOME$/Desktop" value="1473818494000" />
+        <entry key="$USER_HOME$/Desktop/Example" value="1473818997000" />
+        <entry key="$USER_HOME$/Desktop/example" value="1459534374000" />
+        <entry key="$PROJECT_DIR$/../../funsets" value="1519913976000" />
+        <entry key="$PROJECT_DIR$/../../recfun" value="1462387130000" />
+        <entry key="$USER_HOME$/Downloads/Scala Test 1 - Leet - 2016" value="1472072124000" />
+        <entry key="$USER_HOME$/Work/Brookfield/BookingService" value="1473305936000" />
+        <entry key="$USER_HOME$/Work/PlayProjects/DependencyInjection" value="1481257997000" />
+        <entry key="$USER_HOME$/Work/PlayProjects/StoreApp" value="1430233846000" />
+        <entry key="$USER_HOME$/Work/PlayProjects/restAPI" value="1481163599000" />
+        <entry key="$USER_HOME$/Work/PlayProjects/wm_browse" value="4442926377000" />
+        <entry key="$USER_HOME$/Work/Scala Test 2 - Store App" value="1430233846000" />
+        <entry key="$USER_HOME$/Work/Secret/LoginService" value="1482979722000" />
+        <entry key="$USER_HOME$/Work/recfun" value="1462390730000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../PlayProjects/wm_browse" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -238,173 +172,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d37e71c-242c-4e52-bc67-9462a7c1de7c" name="Default Changelist" comment="" />
-      <created>1572616796082</created>
+      <changelist id="552d590c-1344-403a-b3e8-87118418abf7" name="Default Changelist" comment="" />
+      <created>1572621889864</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572616796082</updated>
+      <updated>1572621889864</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="BracketValidatorTest - 2019.11.01 at 10h 55m 40s.xml">
-      <configuration name="BracketValidatorTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="173" y="123" width="1203" height="878" extended-state="0" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24978466" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Floobits" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32923833" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32923833" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32988802" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24978466" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cake/bracketvalidator/BracketValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/com/cake/bracketvalidator/BracketValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JavaPractices</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

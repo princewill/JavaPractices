@@ -1,9 +1,9 @@
-package com.cake.bracketvalidator;
+package com.cake.interview;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import static com.cake.bracketvalidator.BracketValidator.isValid;
+import static com.cake.interview.BracketValidator.isValid;
 
 class BracketValidatorTest {
     @Test
