@@ -3,7 +3,7 @@ Algorithms and Data Structures Problems.
 
 A Repository for my Java PlayGround
 
-#First Problem - BracketValidator.java:
+# First Problem - BracketValidator.java:
 - You're working with an intern that keeps coming to you with JavaScript code that won't run because the braces, brackets, and parentheses are off. To save you both some time, you decide to write a braces/brackets/parentheses validator.
   
   Let's say:
@@ -12,7 +12,7 @@ A Repository for my Java PlayGround
   ')', '}', ']' are called "closers."
   Write an efficient method that tells us whether or not an input string's openers and closers are properly nested.
 
-#Second Problem - MaxProfit.java
+# Second Problem - MaxProfit.java
 - Writing programming interview questions hasn't made me rich yet ... so I might give up and start trading Apple stocks all day instead.
   
   First, I wanna know how much money I could have made yesterday if I'd been trading Apple stocks all day.
