@@ -7,43 +7,43 @@ import static com.cake.interview.BracketValidator.isValid;
 
 class BracketValidatorTest {
     @Test
-    public void validShortCodeTest() {
+    void validShortCodeTest() {
         final boolean result = isValid("()");
         assertTrue(result);
     }
 
     @Test
-    public void validLongerCodeTest() {
+    void validLongerCodeTest() {
         final boolean result = isValid("([]{[]})[]{{}()}");
         assertTrue(result);
     }
 
     @Test
-    public void mismatchedOpenerAndCloserTest() {
+    void mismatchedOpenerAndCloserTest() {
         final boolean result = isValid("([][]}");
         assertFalse(result);
     }
 
     @Test
-    public void interleavedOpenersAndClosersTest() {
+    void interleavedOpenersAndClosersTest() {
         final boolean result = isValid("([)]");
         assertFalse(result);
     }
 
     @Test
-    public void missingCloserTest() {
+    void missingCloserTest() {
         final boolean result = isValid("[[]()");
         assertFalse(result);
     }
 
     @Test
-    public void extraCloserTest() {
+    void extraCloserTest() {
         final boolean result = isValid("[[]]())");
         assertFalse(result);
     }
 
     @Test
-    public void emptyStringTest() {
+    void emptyStringTest() {
         final boolean result = isValid("");
         assertTrue(result);
     }
