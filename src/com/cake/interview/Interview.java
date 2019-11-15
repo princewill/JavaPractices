@@ -7,6 +7,7 @@ import static com.cake.interview.BracketValidator.isValid;
 import static com.cake.interview.MaxProfit.getMaxProfit;
 import static com.cake.interview.SortScores.sortScores;
 import static com.cake.interview.Meeting.mergeRanges;
+import static com.cake.interview.MergeArrays.mergeArrays;
 
 
 
@@ -18,6 +19,7 @@ public class Interview {
         maxProfitExamples();
         sortScoresExamples();
         mergeRangesSamples();
+        mergeArraysSamples();
     }
 
     private static void bracketValidationExamples() {
@@ -72,6 +74,26 @@ public class Interview {
 
         System.out.println("Sample 1: unsorted: {(0, 1), (3, 5), (4, 8), (10, 12), (9, 10)} = " + (mergeRanges(meetings)));
         System.out.println("Sample 1: unsorted: {(1, 10), (2, 5), (6, 8), (9, 10), (10, 12} = " + (mergeRanges(meetings2)));
+
+        System.out.println("End Program____________________________________");
+
+    }
+
+    private static void mergeArraysSamples() {
+
+        System.out.println("Start sort merge ranges Program Examples");
+
+        final int[] myArray = {};
+        final int[] alicesArray = {};
+        System.out.println("Sample 1: array 1: {}, array 2: {} = " + Arrays.toString(mergeArrays(myArray, alicesArray)));
+
+        final int[] myArray1 = {2, 4, 6, 8};
+        final int[] alicesArray1 = {1, 7};
+        System.out.println("Sample 2: array 1: {2, 4, 6, 8}, array 2: {1, 7} = " + Arrays.toString(mergeArrays(myArray1, alicesArray1)));
+
+        final int[] myArray2 = {2, 4, 6};
+        final int[] alicesArray2 = {1, 3, 7};
+        System.out.println("Sample 2: array 1: {2, 4, 6}, array 2: {1, 3, 7} = " + Arrays.toString(mergeArrays(myArray2, alicesArray2)));
 
         System.out.println("End Program____________________________________");
 
