@@ -80,3 +80,18 @@ A Repository for my Java PlayGround
   
   Write a solution that's efficient even when we can't put a nice upper bound on the numbers representing our time ranges. Here we've simplified our times down to the number of 30-minute slots past 9:00 am. But we want the method to work even for very large numbers, like Unix timestamps.
    In any case, the spirit of the challenge is to merge meetings where startTime and endTime don't have an upper bound.
+   
+# Fifth Problem - MergingArrays.java
+- In order to win the prize for most cookies sold, my friend Alice and I are going to merge our Girl Scout Cookies orders and enter as one unit.
+  
+  Each order is represented by an "order id" (an integer).
+  
+  We have our lists of orders sorted numerically already, in arrays. Write a method to merge our arrays of orders into one sorted array.
+  
+  For example:
+  
+    int[] myArray = new int[]{3, 4, 6, 10, 11, 15};
+    int[] alicesArray = new int[]{1, 5, 8, 12, 14, 19};
+  
+  System.out.println(Arrays.toString(mergeArrays(myArray, alicesArray)));
+  // prints [1, 3, 4, 5, 6, 8, 10, 11, 12, 14, 15, 19]
