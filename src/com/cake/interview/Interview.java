@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import static com.cake.interview.BracketValidator.isValid;
+import static com.cake.interview.CanTwoMovies.canTwoMoviesFillFlight;
 import static com.cake.interview.MaxProfit.getMaxProfit;
 import static com.cake.interview.SortScores.sortScores;
 import static com.cake.interview.Meeting.mergeRanges;
@@ -119,6 +120,17 @@ public class Interview {
         final int[] dineInOrders2 = {7, 8};
         final int[] servedOrders2 = {1, 7, 8, 9};
         System.out.println("Sample 2: takeOutOrders2 = {55, 9}, dineInOrders2 = {7, 8}, servedOrders2 = {1, 7, 8, 9} = " + isFirstComeFirstServed(takeOutOrders2, dineInOrders2, servedOrders2));
+
+        System.out.println("End Program____________________________________\n\n");
+
+    }
+
+    private static void canTwoMoviesSamples() {
+        System.out.println("Start can two movies fill flight time Program Examples");
+
+        System.out.println("Sample 1: {2, 4} = " + canTwoMoviesFillFlight(new int[] {2, 4}, 1););
+        
+        System.out.println("Sample 2: {1, 2, 3, 4, 5, 6} = " + canTwoMoviesFillFlight(new int[] {1, 2, 3, 4, 5, 6}, 7););
 
         System.out.println("End Program____________________________________\n\n");
 
