@@ -23,6 +23,7 @@ public class Interview {
         mergeRangesSamples();
         mergeArraysSamples();
         fifoSamples();
+        canTwoMoviesSamples();
     }
 
     private static void bracketValidationExamples() {
@@ -128,13 +129,12 @@ public class Interview {
     private static void canTwoMoviesSamples() {
         System.out.println("Start can two movies fill flight time Program Examples");
 
-        System.out.println("Sample 1: {2, 4} = " + canTwoMoviesFillFlight(new int[] {2, 4}, 1););
+        System.out.println("Sample 1: movie lengths: {2, 4} flight length: 1 = " + canTwoMoviesFillFlight(new int[] {2, 4}, 1));
         
-        System.out.println("Sample 2: {1, 2, 3, 4, 5, 6} = " + canTwoMoviesFillFlight(new int[] {1, 2, 3, 4, 5, 6}, 7););
+        System.out.println("Sample 2: movie lengths: {1, 2, 3, 4, 5, 6} flight length: 7 = " + canTwoMoviesFillFlight(new int[] {1, 2, 3, 4, 5, 6}, 7));
 
         System.out.println("End Program____________________________________\n\n");
 
     }
-
 
 }
