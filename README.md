@@ -157,3 +157,12 @@ A Repository for my Java PlayGround
   Assume the input will only contain words and standard punctuation.
   
   You could make a reasonable argument to use regex in your solution. We won't, mainly because performance is difficult to measure and can get pretty bad.
+  
+# Eight Problem - Permutation.java
+- Write a recursive method for generating all permutations of an input string. Return them as a set.
+  
+  Don't worry about time or space complexity—if we wanted efficiency we'd write an iterative version.
+  
+  To start, assume every character in the input string is unique.
+  
+  Your method can have loops—it just needs to also be recursive.
