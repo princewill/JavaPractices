@@ -166,3 +166,8 @@ A Repository for my Java PlayGround
   To start, assume every character in the input string is unique.
   
   Your method can have loops—it just needs to also be recursive.
+  
+# Ninth Problem - HighestProductOf3.java
+- Given an array of integers, find the highest product you can get from three of the integers.
+  
+  The input arrayOfInts will always have at least three integers.
