@@ -5,6 +5,7 @@ import java.util.List;
 
 import static com.cake.interview.BracketValidator.isValid;
 import static com.cake.interview.CanTwoMovies.canTwoMoviesFillFlight;
+import static com.cake.interview.InPlaceShuffle.shuffle;
 import static com.cake.interview.MaxProfit.getMaxProfit;
 import static com.cake.interview.SortScores.sortScores;
 import static com.cake.interview.Meeting.mergeRanges;
@@ -24,6 +25,7 @@ public class Interview {
         mergeArraysSamples();
         fifoSamples();
         canTwoMoviesSamples();
+        inPlaceShuffle();
     }
 
     private static void bracketValidationExamples() {
@@ -135,6 +137,14 @@ public class Interview {
 
         System.out.println("End Program____________________________________\n\n");
 
+    }
+
+    private static void inPlaceShuffle() {
+        final int[] initial = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        final int[] shuffled = Arrays.copyOf(initial, initial.length);
+        shuffle(shuffled);
+        System.out.printf("initial array: %s\n", Arrays.toString(initial));
+        System.out.printf("shuffled array: %s\n", Arrays.toString(shuffled));
     }
 
 }
