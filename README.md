@@ -190,3 +190,10 @@ A Repository for my Java PlayGround
     [7 * 3 * 4,  1 * 3 * 4,  1 * 7 * 4,  1 * 7 * 3]
   
   Here's the catch: You can't use division in your solution!
+
+# eleventh Problem - InPlaceShuffle.java
+- Write a method for doing an in-place ↴ shuffle of an array.
+  
+  The shuffle must be "uniform," meaning each item in the original array must have the same probability of ending up in each spot in the final array.
+  
+  Assume that you have a method getRandom(floor, ceiling) for getting a random integer that is >= floor and <= ceiling.
