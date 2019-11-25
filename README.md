@@ -172,7 +172,26 @@ A Repository for my Java PlayGround
   
   The input arrayOfInts will always have at least three integers.
   
-# Tenth Problem - InPlaceShuffle.java
+# Tenth Problem - ProductOfAllExceptIndex.java
+- You have an array of integers, and for each index you want to find the product of every integer except the integer at that index.
+  
+  Write a method getProductsOfAllIntsExceptAtIndex() that takes an array of integers and returns an array of the products.
+  
+  For example, given:
+  
+    [1, 7, 3, 4]
+  
+  your method would return:
+  
+    [84, 12, 28, 21]
+  
+  by calculating:
+  
+    [7 * 3 * 4,  1 * 3 * 4,  1 * 7 * 4,  1 * 7 * 3]
+  
+  Here's the catch: You can't use division in your solution!
+
+# eleventh Problem - InPlaceShuffle.java
 - Write a method for doing an in-place ↴ shuffle of an array.
   
   The shuffle must be "uniform," meaning each item in the original array must have the same probability of ending up in each spot in the final array.
