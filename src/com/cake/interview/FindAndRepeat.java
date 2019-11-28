@@ -1,7 +1,7 @@
 package com.cake.interview;
 
 public class FindAndRepeat {
-    
+
     public static int findRepeat(int[] numbers) {
 
         int floor = 1;
