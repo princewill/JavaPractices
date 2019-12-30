@@ -76,5 +76,48 @@ public class BinaryTree {
         return true;
     }
 
+    public static class UpperLowerboundNode {
+
+        public int lowerBound;
+        public int upperBound;
+        public BinaryTreeNode node;
+
+        UpperLowerboundNode(BinaryTreeNode node, int upper, int lower) {
+            this.lowerBound = lower;
+            this.upperBound = upper;
+            this.node = node;
+        }
+
+    }
+
+
+    public static boolean isBinarySearchTree(BinaryTreeNode root) {
+
+        Deque<UpperLowerboundNode> bounds = new ArrayDeque<>();
+        bounds.push(new UpperLowerboundNode(root, Integer.MAX_VALUE, Integer.MIN_VALUE));
+
+
+        while(!bounds.isEmpty()){
+
+            UpperLowerboundNode nodeBound = bounds.pop();
+
+            if(nodeBound.node.value <= nodeBound.lowerBound || nodeBound.node.value >= nodeBound.upperBound){
+                return false;
+            }
+
+            if(nodeBound.node.left != null) {
+                bounds.push(new UpperLowerboundNode(nodeBound.node.left, nodeBound.node.value, nodeBound.lowerBound));
+            }
+
+            if(nodeBound.node.right != null) {
+                bounds.push(new UpperLowerboundNode(nodeBound.node.right, nodeBound.upperBound, nodeBound.node.value));
+
+            }
+
+        }
+
+        return true;
+    }
+
 }
 
