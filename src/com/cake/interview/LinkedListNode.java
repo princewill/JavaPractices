@@ -48,6 +48,20 @@ public class LinkedListNode {
         return currentNode;
     }
 
+    public static boolean containsCycle(LinkedListNode startNode){
+        LinkedListNode fastRunner = startNode;
+        LinkedListNode slowRunner = startNode;
+
+        while(fastRunner != null && fastRunner.next != null) {
+            fastRunner = fastRunner.next.next;
+            slowRunner = slowRunner.next;
+
+            if(fastRunner == slowRunner) return true;
+        }
+
+        return false;
+    }
+
 }
 
 
