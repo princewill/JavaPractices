@@ -4,11 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.cake.interview.LinkedListNode.deleteNodeWhenGivenNode;
-import static com.cake.interview.LinkedListNode.containsCycle;
+import static com.cake.interview.LinkedListNode.*;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertSame;
+
 
 
 
@@ -127,6 +128,46 @@ public class LinkedListNodeTest {
             }
         }
         return nodes;
+    }
+
+    @Test
+    public void shortLinkedListTest() {
+        final LinkedListNode[] nodes = valuesToLinkedListNodes(new int[] {1, 2});
+        final LinkedListNode result = reverse(nodes[0]);
+        assertTrue(isListReversed(result, nodes));
+    }
+
+    @Test
+    public void longLinkedListTest() {
+        final LinkedListNode[] nodes = valuesToLinkedListNodes(new int[] {1, 2, 3, 4, 5, 6});
+        final LinkedListNode result = reverse(nodes[0]);
+        assertTrue(isListReversed(result, nodes));
+    }
+
+    @Test
+    public void oneElementLinkedListTest() {
+        final LinkedListNode node = new LinkedListNode(1);
+        final LinkedListNode result = reverse(node);
+        assertSame(node, result);
+    }
+
+    @Test
+    public void emptyLinkedListTest() {
+        final LinkedListNode result = reverse(null);
+        assertNull(result);
+    }
+
+
+    private static boolean isListReversed(LinkedListNode list, LinkedListNode[] originalNodes) {
+        int i = originalNodes.length - 1;
+        while (list != null && i >= 0) {
+            if (originalNodes[i] != list) {
+                return false;
+            }
+            list = list.next;
+            i--;
+        }
+        return list == null && i == -1;
     }
 
 }
