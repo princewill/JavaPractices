@@ -62,6 +62,26 @@ public class LinkedListNode {
         return false;
     }
 
+    public static LinkedListNode reverse(LinkedListNode headOfList) {
+
+        LinkedListNode currentNode = headOfList;
+        LinkedListNode nextNode = null;
+        LinkedListNode prevNode = null;
+
+        while(currentNode != null) {
+
+            nextNode = currentNode.next;
+            currentNode.next = prevNode;
+
+            prevNode = currentNode;
+            currentNode = nextNode;
+        }
+
+
+
+        return prevNode;
+    }
+
 }
 
 
