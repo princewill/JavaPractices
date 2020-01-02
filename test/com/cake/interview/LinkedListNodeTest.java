@@ -119,17 +119,6 @@ public class LinkedListNodeTest {
         assertTrue(result);
     }
 
-    private static LinkedListNode[] valuesToLinkedListNodes(int[] values) {
-        final LinkedListNode[] nodes = new LinkedListNode[values.length];
-        for (int i = 0; i < values.length; ++i) {
-            nodes[i] = new LinkedListNode(values[i]);
-            if (i > 0) {
-                nodes [i - 1].next = nodes[i];
-            }
-        }
-        return nodes;
-    }
-
     @Test
     public void shortLinkedListTest() {
         final LinkedListNode[] nodes = valuesToLinkedListNodes(new int[] {1, 2});
@@ -168,6 +157,45 @@ public class LinkedListNodeTest {
             i--;
         }
         return list == null && i == -1;
+    }
+
+    @Test
+    public void firstToLastNodeTest() {
+        final LinkedListNode[] listNodes = valuesToLinkedListNodes(new int[] {1, 2, 3, 4});
+        final int k = 1;
+        final LinkedListNode actual = nthToTheLastNode2(k, listNodes[0]);
+        final LinkedListNode expected = listNodes[listNodes.length - k];
+        assertSame(expected, actual);
+    }
+
+    @Test
+    public void secondToLastNodeTest() {
+        final LinkedListNode[] listNodes = valuesToLinkedListNodes(new int[] {1, 2, 3, 4});
+        final int k = 2;
+        final LinkedListNode actual = nthToTheLastNode2(k, listNodes[0]);
+        final LinkedListNode expected = listNodes[listNodes.length - k];
+        assertSame(expected, actual);
+    }
+
+    @Test
+    public void firstNodeTest() {
+        final LinkedListNode[] listNodes = valuesToLinkedListNodes(new int[] {1, 2, 3, 4});
+        final int k = 4;
+        final LinkedListNode actual = nthToTheLastNode2(k, listNodes[0]);
+        final LinkedListNode expected = listNodes[listNodes.length - k];
+        assertSame(expected, actual);
+    }
+
+
+    private static LinkedListNode[] valuesToLinkedListNodes(int[] values) {
+        final LinkedListNode[] nodes = new LinkedListNode[values.length];
+        for (int i = 0; i < values.length; i++) {
+            nodes[i] = new LinkedListNode(values[i]);
+            if (i > 0) {
+                nodes[i - 1].next = nodes[i];
+            }
+        }
+        return nodes;
     }
 
 }

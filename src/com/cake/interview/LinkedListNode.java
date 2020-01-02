@@ -1,5 +1,7 @@
 package com.cake.interview;
 
+import sun.awt.image.ImageWatched;
+
 public class LinkedListNode {
 
     int value;
@@ -80,6 +82,45 @@ public class LinkedListNode {
 
 
         return prevNode;
+    }
+
+    public static LinkedListNode nthToTheLastNode1(LinkedListNode headNode, int n){
+        LinkedListNode headOfStick = headNode;
+        LinkedListNode tailOfStick = headNode;
+
+        for(int i = 0; i< n-1; i++){
+            if(headOfStick == null) return null;
+            headOfStick = headOfStick.next;
+        }
+
+        while(headOfStick != null){
+            headOfStick = headOfStick.next;
+            tailOfStick = tailOfStick.next;
+        }
+
+        return tailOfStick;
+    }
+
+    public static LinkedListNode nthToTheLastNode2(int n, LinkedListNode headNode){
+
+        int lengthOfLinkedList = 1;
+        LinkedListNode currentNode = headNode;
+
+        while(currentNode != null){
+            currentNode = currentNode.next;
+            lengthOfLinkedList++;
+        }
+
+        if(n > lengthOfLinkedList) return null;
+
+        int howFarToGo = lengthOfLinkedList - n;
+
+        currentNode = headNode;
+
+        for(int i = 0; i < howFarToGo; i++){
+            currentNode = currentNode.next;
+        }
+        return currentNode;
     }
 
 }
