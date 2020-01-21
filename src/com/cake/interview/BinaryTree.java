@@ -119,5 +119,61 @@ public class BinaryTree {
         return true;
     }
 
+    public static String largeSubTree(long[] numbers){
+
+        ArrayList<Long> lefts = new ArrayList<>();
+        ArrayList<Long> rights = new ArrayList<>();
+        int indexPower = 1;
+        long leftSum = 0;
+        long rightSum = 0;
+        int levelNodesCount = 1;
+        double numOfNodes = Math.pow(2, indexPower);
+        int numOfNodesAtLevel = (int) Math.round(numOfNodes);
+        int halfWay = numOfNodesAtLevel / 2;
+
+
+        if(numbers == null) return "";
+
+
+        for (int i = 1; i < numbers.length; i++){
+
+            if(levelNodesCount <= halfWay) lefts.add(replace(numbers[i]));
+            else rights.add(replace(numbers[i]));
+
+            levelNodesCount++;
+            numOfNodesAtLevel--;
+            
+            if(numOfNodesAtLevel == 0) {
+                indexPower++;
+                numOfNodes = Math.pow(2, indexPower);
+                numOfNodesAtLevel = (int) Math.round(numOfNodes);
+                halfWay = numOfNodesAtLevel / 2;
+                levelNodesCount = 1;
+            }
+        }
+
+        for(long left : lefts) leftSum += left;
+        for(long right : rights) rightSum += right;
+
+        if (leftSum == rightSum){
+            return "";
+        }
+        else if(leftSum > rightSum){
+            return "Left";
+        }
+        else {
+            return "Right";
+        }
+
+    }
+
+    private static long replace(long value){
+        if(value == -1){
+            return 0L;
+        }
+        else return value;
+    }
+
+
 }
 
