@@ -76,13 +76,13 @@ public class BinaryTree {
         return true;
     }
 
-    public static class UpperLowerboundNode {
+    public static class UpperLowerBoundNode {
 
         public int lowerBound;
         public int upperBound;
         public BinaryTreeNode node;
 
-        UpperLowerboundNode(BinaryTreeNode node, int upper, int lower) {
+        UpperLowerBoundNode(BinaryTreeNode node, int upper, int lower) {
             this.lowerBound = lower;
             this.upperBound = upper;
             this.node = node;
@@ -93,24 +93,24 @@ public class BinaryTree {
 
     public static boolean isBinarySearchTree(BinaryTreeNode root) {
 
-        Deque<UpperLowerboundNode> bounds = new ArrayDeque<>();
-        bounds.push(new UpperLowerboundNode(root, Integer.MAX_VALUE, Integer.MIN_VALUE));
+        Deque<UpperLowerBoundNode> bounds = new ArrayDeque<>();
+        bounds.push(new UpperLowerBoundNode(root, Integer.MAX_VALUE, Integer.MIN_VALUE));
 
 
         while(!bounds.isEmpty()){
 
-            UpperLowerboundNode nodeBound = bounds.pop();
+            UpperLowerBoundNode nodeBound = bounds.pop();
 
             if(nodeBound.node.value <= nodeBound.lowerBound || nodeBound.node.value >= nodeBound.upperBound){
                 return false;
             }
 
             if(nodeBound.node.left != null) {
-                bounds.push(new UpperLowerboundNode(nodeBound.node.left, nodeBound.node.value, nodeBound.lowerBound));
+                bounds.push(new UpperLowerBoundNode(nodeBound.node.left, nodeBound.node.value, nodeBound.lowerBound));
             }
 
             if(nodeBound.node.right != null) {
-                bounds.push(new UpperLowerboundNode(nodeBound.node.right, nodeBound.upperBound, nodeBound.node.value));
+                bounds.push(new UpperLowerBoundNode(nodeBound.node.right, nodeBound.upperBound, nodeBound.node.value));
 
             }
 

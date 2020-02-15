@@ -2,6 +2,7 @@ package com.cake.interview;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 import static com.cake.interview.BracketValidator.isValid;
 import static com.cake.interview.CanTwoMovies.canTwoMoviesFillFlight;
@@ -17,6 +18,20 @@ import static com.cake.interview.FirstComeFirstServed.isFirstComeFirstServed;
 public class Interview {
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextInt();
+        }
+        sc.close();
+
+        Difference difference = new Difference(a);
+
+        difference.computeDifference();
+
+        System.out.print(difference.maximumDifference);
 
         bracketValidationExamples();
         maxProfitExamples();
@@ -146,5 +161,6 @@ public class Interview {
         System.out.printf("initial array: %s\n", Arrays.toString(initial));
         System.out.printf("shuffled array: %s\n", Arrays.toString(shuffled));
     }
+
 
 }
