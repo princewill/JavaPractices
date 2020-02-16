@@ -20,5 +20,5 @@ class Difference {
 
     }
 
-} // End of Difference class
+}
 
